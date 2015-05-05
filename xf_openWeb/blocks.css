@@ -1,0 +1,278 @@
+/*  
+Theme Name: xf_openWeb
+Theme URI: http://xoopsfactory.com 
+Description: just another clone from a CSS XOPS theme of mine <a href="http://xoopsfactory.com">XOOPS FACTORY</a>.
+Version: 1.0 | 14.05.2006
+Author: Michael Hokamp [aka studioC] 
+Author URI: http://hokamp.info
+icons: left+right blocktitle: sweetie from http://sublink.ca/north/
+xoopsfactory-bee: http://openclipart.org
+*/
+
+div.ltitle {
+padding: 0px;
+width: 180px;
+background : #cc9;
+border-top: 1px solid #fff; 
+border-left: 0px solid #fff; 
+border-bottom: 1px solid #fff;
+}
+div.ltitle h3 {
+color: #fff;
+font-size: 12px;
+background: url(images/onl.gif) no-repeat left center;
+padding: 5px;
+padding-left: 28px;
+text-transform:uppercase;
+}
+div.lblockcontent {
+color: #000;
+padding: 10px;
+background : #E2E2C8;
+margin-bottom: 15px;
+}
+div.lblockcontent a {
+color: #000;
+font-weight: bold;
+}
+div.lblockcontent a:hover {
+color: #999;
+font-weight: bold;
+}
+div.lblockcontent b {
+color: #999;
+font-weight: bold;
+}
+
+/* end left block settings */
+div.rtitle {
+padding: 0px;
+width: 180px;
+background : #74983B;
+border-top: 1px solid #fff; 
+border-left: 0px solid #fff; 
+border-bottom: 1px solid #fff;
+}
+div.rtitle h3 {
+color: #fff;
+font-size: 12px;
+background: url(images/onr.gif) no-repeat left center;
+padding: 5px;
+padding-left: 28px;
+text-transform:uppercase;
+}
+div.rblockcontent {
+font-size: 12px;
+color: #000;
+padding: 10px;
+background : #e2e2c8;
+margin-bottom: 15px;
+}
+div.rblockcontent a {
+color: #000;
+}
+div.rblockcontent a:hover {
+color: #999;
+}
+div.rblockcontent b {
+color: #000;
+}
+/* end right block settings */
+
+fieldset {padding:10px;border: 1px dotted #ccc;}
+legend {padding:10px;background:#fff;}
+
+#modulcontent em {
+font-size: 15px;
+font-style: normal;
+font-weight:bold;
+color: #000;
+}
+
+#modulcontent ul  {
+list-style-type:none;
+margin:0;
+padding: 10px;
+padding-left:0;
+text-align:left;
+}
+#modulcontent ul li ul li{
+list-style-type:none;
+margin:0;
+padding: 10px;
+padding-left:20px;
+text-align:left;
+}
+#modulcontent ul a {
+color: #fc0;
+text-decoration: none;
+}
+#modulcontent h2 {
+padding-top: 15px;
+font-size:15px;
+text-transform:uppercase;
+}
+#modulcontent h3 {
+padding-top: 15px;
+font-size:15px;
+color:#000;
+text-transform:uppercase;
+}
+#modulcontent h3 a {
+text-decoration:none;
+color: #999;
+text-transform:uppercase;
+}
+#modulcontent h4 {
+padding:0px;
+margin:0;
+padding-top: 5px;
+font-size:14px;
+color:#000;
+text-transform:uppercase;
+}
+#modulcontent {
+font-size:13px;
+line-height:17px;
+}
+#modulcontent p {
+padding: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.centerblocktitle h3 {
+padding-top: 15px;
+font-size:15px;
+color:#000;
+text-transform:uppercase;
+}
+div.centerblocktitle {
+border-bottom: 5px solid #cc9;
+}
+.centerblockcontent {
+padding:0px;
+font-size:13px;
+line-height:17px;
+padding-bottom:15px;
+padding-top:10px;
+text-align:justify;
+}
+h2{
+padding-top: 15px;
+font-size:16px;
+color:#00;
+text-transform:uppercase;
+}
+h3{
+padding-top: 15px;
+font-size:15px;
+color:#000;
+text-transform:uppercase;
+}
+#mainmenutop  {
+list-style-type:none;
+margin:0;
+padding: 10px; 
+padding-left:0;
+text-align:right;
+}
+#mainmenutop li {
+display:inline;
+font-size:110%;
+}
+#linkblock  {
+list-style-type:none;
+margin:0;
+padding: 10px; 
+padding-left:0;
+}
+#linkblock li {
+display:block;
+}
+#linkblock li a {
+color: #fc0;
+font-weight:normal;
+font-size: 12px;
+padding-right: 0px;
+text-decoration:none;
+}
+#mainmenu a {
+display:block;
+}
+#mainmenu  {
+list-style-type:none;
+margin:0;
+padding: 10px; 
+padding-left:0;
+}
+#mainmenu li {
+display:block;
+}
+#mainmenu li a {
+font-weight:normal;
+font-size: 12px;
+padding-right: 0px;
+text-decoration:none;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+
+#mainmenu li a:hover {
+font-weight:bold;
+font-size: 12px;
+padding-right: 0px;
+text-decoration:none;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+
+#mainmenu li a.submenu {
+font-weight:normal;
+color: #fc0;
+font-size: 12px;
+padding-right: 0px;
+text-decoration:none;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+
+#mainmenu span {
+font-weight:normal;
+font-size: 12px;
+
+text-decoration:none;
+color: #fc0;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+#usermenu a {
+display:block;
+}
+#usermenu  {
+list-style-type:none;
+margin:0;
+padding: 10px;
+padding-left:0;
+text-align:left;
+}
+#usermenu li {
+display:block;
+}
+#usermenu li a {
+font-weight:normal;
+font-size: 12px;
+padding: 5px;
+padding-right: 0px;
+text-decoration:none;
+}
+#usermenu li a:hover {
+font-weight:bold;
+font-size: 12px;
+padding: 5px;
+padding-right: 0px;
+}
+
+#blockleft input {
+border :1px solid #666;
+padding: 2px;
+}

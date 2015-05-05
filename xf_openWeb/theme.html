@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_pagetitle}>, <{$xoops_meta_keywords}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="<{$xoops_url}>/backend.php" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_imageurl}>stylesheet.css" /> 
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+<!-- this [x]html-Layout and Themefile is copyright 2006 by Michael Hokamp [aka studioC] <a href="http://hokamp.info">HOKAMP</a>
+please do not remove these lines nor use it for commercial purpose without my explicit permission -->
+</head>
+<body>
+<div id="page"><a name="to-top"></a>
+<div id="header">
+<div id="logo"><h1><a href="<{$xoops_url}>" title="<{$xoops_pagetitle}>"><span><strong><{$xoops_pagetitle}></strong></span></a></h1></div>
+<div id="xoopsbanner"><img src="<{$xoops_imageurl}>images/xoopsfactory-banner.gif" title="Banner xf_openWeb" alt="Banner xf_openWeb" /></div>
+</div> 
+<div id="topmenu">
+<div id="usernav">
+<ul>
+<li><a accesskey="1" href="<{$xoops_url}>" title="link ACCESS KEY=1">HOME <span class="hell">ALT+1</span></a> |</li>
+<li><a accesskey="2" href="<{$xoops_url}>" title="link ACCESS KEY=2">LINK <span class="hell">ALT+2</span></a> |</li>
+<li><a accesskey="3" href="<{$xoops_url}>" title="link ACCESS KEY=2">LINK <span class="hell">ALT+3</span></a> |</li>
+<li><a href="<{$xoops_url}>">LINK</a></li>
+</ul><br class="one" />
+</div>
+</div>
+<div id="pagelayer<{$xoops_lblocks}><{$xoops_showrblock}>">
+<div id="container<{$xoops_lblocks}><{$xoops_showrblock}>">	
+	<{if $xoops_lblocks == ''}> <{else}>
+	<div id="blockleft"><{foreach item=block from=$xoops_lblocks}><{include file="$xoops_theme/blocks/theme_blockleft.html"}><{/foreach}>
+	</div><{/if}>
+	<{if $xoops_showrblock == 1}>
+	<div id="blockright">
+	<{foreach item=block from=$xoops_rblocks}><{include file="$xoops_theme/blocks/theme_blockright.html"}><{/foreach}>	
+	</div>
+	<{/if}>
+	<div id="content<{$xoops_lblocks}><{$xoops_showrblock}>">
+	  <{if $xoops_showcblock == 1}><{foreach item=block from=$xoops_clblocks}><{include file="$xoops_theme/blocks/theme_blockcenter_l.html"}><{/foreach}>
+	<{foreach item=block from=$xoops_ccblocks}><{include file="$xoops_theme/blocks/theme_blockcenter_c.html"}><{/foreach}><{/if}>
+	<div id="modulcontent"><{$xoops_contents}></div>
+	<{foreach item=block from=$xoops_crblocks}>
+	<{include file="$xoops_theme/blocks/theme_blockcenter_r.html"}><{/foreach}>
+	</div>
+<div style="clear: both;"></div></div></div>
+<div id="betweenfooter">
+<br /><br /><br />
+</div>
+<div id="pagefooterend">
+<div id="pagefooterendleft"><span class="top"><a href="#to-top">JUMP to TOP</a></span> - <{$smarty.now|date_format:"%d.%m.%Y"}> -</div>
+<div id="pagefooterendright"><a href="http://xoopsfactory.com">&copy;XOOPS FACTORY</a> | &copy;2006 by <a href="http://hokamp.info"><strong>HOKAMP</strong></a></div>
+</div>
+</div><!-- close id page -->
+</body>
+</html>

@@ -1,0 +1,309 @@
+/*  
+Theme Name: xf_openWeb
+Theme URI: http://xoopsfactory.com 
+Description: just another clone from a CSS XOPS theme of mine <a href="http://xoopsfactory.com">XOOPS FACTORY</a>.
+Version: 1.0 | 14.05.2006
+Author: Michael Hokamp [aka studioC] 
+Author URI: http://hokamp.info
+icons: left+right blocktitle: sweetie from http://sublink.ca/north/
+xoopsfactory-bee: http://openclipart.org
+*/
+
+@import url(blocks.css);
+body { 
+color: #333; 
+background: url(images/back.gif) repeat-x #fff;    
+text-align: center; 
+margin: 0px;
+font-family: Verdana, Arial, Sans-serif;
+font-size: 13px;
+line-height: 17px;
+}
+div#page { 
+background-color: #fff; 
+max-width: 1012px; 
+width: expression(document.body.clientWidth > 1012? "1012px": "auto" ); 
+}
+div#page {
+text-align: left;
+border: 0px;
+margin: 0px;
+margin-left: auto;
+margin-right: auto;
+padding: 0px;
+}
+#topmenu {
+text-align: right;
+border: 0px;
+border-top: 1px solid #fff;
+margin: 0px;
+margin-left: auto;
+margin-right: auto;
+padding: 0px;
+background: url(images/topmenu.gif) #6b6b6b top left no-repeat;
+height: 25px;
+width: 100%;
+line-height: 16px;
+}
+.one {
+line-height:4px;
+}
+.hell {
+font-weight:bold;
+color: #000;
+font-size:9px;
+}
+#usernav {
+font-size:11px;
+padding:2px;
+padding-top:3px;
+text-align: right;
+padding-right:10px;
+}
+#usernav ul {
+list-style-type:none;
+margin:0;
+padding: 0px; 
+text-align:right;
+}
+#usernav li {
+display:inline;
+}
+#usernav li {
+margin:0;
+padding: 0px; 
+}
+#usernav li a{
+text-decoration:none;
+padding: 3px; 
+color: #fff;
+}
+#usernav li a:hover{
+padding: 3px; 
+color: #C2E167;
+}
+#header {
+text-align: right;
+border: 0px;
+border-top: 0px solid #fff;
+margin: 0px;
+margin-left: auto;
+margin-right: auto;
+padding: 0px;
+background: url(images/header.gif) #cc9 no-repeat;
+height: 80px;
+width: 100%;
+}
+#header a {
+color: #fff;
+}
+#logo {
+text-align: left;
+width: 180px;
+float: left;
+height: 80px; 
+}
+#logo a {
+width: 180px;
+float: left;
+height: 80px; 
+margin: 0px 0px;
+padding: 0px;
+display: block;
+}
+#logo h1 {
+margin: 0px 0px;
+padding: 0px;
+}
+#logo span {
+display: none;
+}
+
+.clear {
+clear:left;
+}
+#xoopsbanner a:hover{
+background: transparent;
+}
+#xoopsbanner {
+padding: 10px 10px 5px 5px;
+margin-left: 200px;
+}
+/* end of header styles */
+#pagelayer, #pagelayerArray1, #pagelayer1, #pagelayerArray0 {
+text-align: left;
+width: 100%;
+border: 0px;
+margin: 0px;
+margin-left: auto;
+margin-right: auto;
+padding: 0px;
+background-color: #fff;
+}
+#pagelayerArray1 {
+background: url(images/bothright.gif) #fff top right repeat-y;  
+}
+#containerArray1, #containerArray0, #container1, #container0 {
+text-align: left;
+border: 0px;
+margin: 0px;
+margin-left: auto;
+margin-right: auto;
+padding: 0px;
+background: #fff;
+}
+#containerArray1, #containerArray0 {
+background: url(images/bothleft.gif) top left repeat-y;  
+}
+#contentArray1 {
+padding: 0px;
+margin-top: 0px;
+margin-left: 200px;
+margin-right: 200px;     
+}
+#contentArray0 {
+padding: 0px;
+margin-left: 200px;
+margin-right: 10px;
+}
+#content1 {
+padding: 0px;
+margin-left: 10px;
+margin-right: 200px;     
+}
+#content0 {
+padding: 0px;
+margin-left: 10px;
+margin-right: 10px;     
+}
+#blockleft {
+float: left;
+width: 180px;
+margin: 0px;
+margin-right: 0px;
+padding: 0px;
+color: #333;
+}
+p {
+padding: 10px;
+padding-left: 0px;
+margin: 0px;
+}
+h1 {
+margin: 0px;
+font-size: 16px;
+padding: 10px;
+padding-left: 0px;
+}
+h2, h3 {
+margin: 0px;
+font-size: 16px;
+padding: 10px;
+padding-left: 0px;
+}
+img {
+border: 0px;
+}
+#blockright {
+color: #000;
+float: right;
+width: 180px;
+margin: 0px;
+margin-left: 0px;
+padding: 0px;
+}
+b {
+font-size: 13px;
+color: #000;
+}
+strong {
+font-size: 14px;
+color: #000;
+text-transform:uppercase;
+}
+a {
+text-decoration: underline;
+color: #000;
+font-size: 13px;
+}
+a:hover{
+color: #999;
+text-decoration: underline;
+}
+hr {
+height:1px;
+color: #fff;
+background: #fff;
+}
+#betweenfooter {
+text-align:center;
+border: 0px;
+margin: 0px;
+margin-left: auto;
+margin-right: auto;
+padding: 0px;
+background: #e2e2c8;
+width: 100%;
+}
+#pagefooterend {
+background: #6b6b6b;
+padding: 10px;
+padding-top:2px;
+padding-bottom:4px;
+color: #000;
+font-size: 11px;
+border-top: 1px solid #fff;
+}
+#pagefooterend a {
+color: #fff;
+text-decoration:none;
+}
+#pagefooterend a:hover {
+color: #C2E167;
+}
+#pagefooterendleft {
+width: 200px; 
+float:left;
+text-align:left;
+}
+#pagefooterendright {
+text-align: right;
+}
+#pagefooterend strong {
+font-size: 12px;
+color: #C2E167;
+}
+table { 
+width: 99%; font-size: 12px; 
+}
+.submenu a {
+background: url(images/submenu.gif) no-repeat left center;
+padding-left:17px;
+color: #999;
+}
+.border {
+line-height:55px;
+width: 330px;
+background: #fff;
+}
+#modulcontent textarea {
+width: 310px;
+}
+#contentArray1 a:hover{
+color: #000;
+}
+ul {
+list-style-type:square;
+}
+/* Xoops table classes */
+th {text-transform:uppercase;background-color: #6b6b6b; color: #fff; padding: 3px; vertical-align : middle; font-weight: normal;}
+th a {text-transform:uppercase;color: #fff; text-decoration:none;}
+th a:hover {color: #fff; text-decoration:none;}
+.outer {border: 0px solid silver;}
+.head {text-transform:uppercase;background-color: #74983B; padding: 4px;font-size:10px; font-weight: normal; color:#fff;}
+.even {background-color: #f1f1f1; padding: 2px;}
+.odd {background-color: #f6f6f6; padding: 2px;}
+.foot {background-color: #f6f6f6; padding: 2px; font-weight: bold;}
+tr.even td {background-color: #f1f1f1; padding: 2px;}
+tr.odd td {background-color: #f6f6f6; padding: 2px;}
+/* This CSS is part of a XOOPS theme from michael [aka studioC] <a href="http://xoopsfactory.com">XOOPS FACTORY</a> */
